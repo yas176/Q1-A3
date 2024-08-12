@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Node.js Functions</title>
+</head>
+<body>
+    <h1>Test Node.js Functions</h1>
+    <form action="/findSummation" method="POST">
+        <h2>Find Summation</h2>
+        <label for="N">Enter a positive integer:</label>
+        <input type="number" id="N" name="N" required>
+        <button type="submit">Submit</button>
+    </form>
+    
+    <form action="/uppercaseFirstandLast" method="POST">
+        <h2>Uppercase First and Last</h2>
+        <label for="inputString">Enter a string:</label>
+        <input type="text" id="inputString" name="inputString" required>
+        <button type="submit">Submit</button>
+    </form>
+    
+    <form action="/findAverageAndMedian" method="POST">
+        <h2>Find Average and Median</h2>
+        <label for="numbers">Enter numbers separated by commas:</label>
+        <input type="text" id="numbers" name="numbers" required>
+        <button type="submit">Submit</button>
+    </form>
+    
+    <form action="/find4Digits" method="POST">
+        <h2>Find 4-Digit Number</h2>
+        <label for="numberString">Enter a string of numbers separated by spaces:</label>
+        <input type="text" id="numberString" name="numberString" required>
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>

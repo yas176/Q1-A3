@@ -1,0 +1,20 @@
+{
+    "name": "a3-nodejs",
+    "version": "1.0.0",
+    "description": "A simple Node.js project to demonstrate Express functionality",
+    "main": "Q1.js",
+    "scripts": {
+        "start": "node Q1.js"
+    },
+    "author": "Yasmeen Adi",
+    "license": "ISC",
+    "dependencies": {
+        "bcrypt": "^5.1.1",
+        "body-parser": "^1.20.2",
+        "cookie-parser": "^1.4.6",
+        "ejs": "^3.1.10",
+        "express": "^4.19.2",
+        "express-session": "^1.18.0"
+    },
+    "keywords": []
+}
